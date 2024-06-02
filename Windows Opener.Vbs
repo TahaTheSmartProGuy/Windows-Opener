@@ -58,7 +58,7 @@
 On Error Resume Next
 intAnswer = _
     Msgbox("This Malware is Joke Do You Want To Run it?", _
-        vbYesNo, "Windows Opener by Taha 2.0.2.4")
+        vbYesNo, "Windows Opener 3.0 by Kapi2.5Peys")
 If intAnswer = vbYes Then
 On Error Resume Next
 X=Msgbox("Are You Sure You Want To Run. This May Give You 5 Second To End Task And Lag Your Computer A Bit. Click Ok To Start. Or End Task To Stop it.")
@@ -88,6 +88,7 @@ X=MsgBox("Ok Then!")
     CreateObject("Wscript.Shell").run("msedge.exe")
     CreateObject("Wscript.Shell").run("wmplayer.exe")
     CreateObject("Wscript.Shell").run("mspaint.exe")
+    CreateObject("Wscript.Shell").run("iexplore.exe")
     CreateObject("Wscript.Shell").run("Control.exe")
     CreateObject("Wscript.Shell").run("Winver.exe")
     CreateObject("Wscript.Shell").run("Run.exe")
